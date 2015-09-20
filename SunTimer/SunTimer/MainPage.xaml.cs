@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Diagnostics;
 using Windows.Devices.Gpio;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -29,7 +28,7 @@ namespace SunTimer
 
         private double latLocal = 35.1515;
         private double lonLocal = -97.2919;
-        
+
         public MainPage()
         {
             InitializeComponent();
